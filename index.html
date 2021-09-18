@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILLAR</title>
+</head>
+<body>
+    
+    <h1 style="text-align:center;">La bola perdida</h1>
+    <h1 style="text-align:center;">El billar de los villanos</h1>
+    <img src="palo.gif">
+    
+    <table>
+        <td ><h2>Mesa 1: </h2></td><td><h2>Mesa 2: </h2></td><td><h2>Mesa 3: </h2></td></tr>
+        <tr>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen1" ></td>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen2" ></td>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen3" ></td>
+        </tr>
+        
+        <tr>
+            <td>Tiempo:
+                <script src="mesa1.js"></script>
+                <div class="chronometer">
+                    <div id="screen1">00 : 00 : 00 : 00</div>
+                    <div class="buttons">
+                        <button class="emerald" onclick="start()">START &#9658;</button>
+                        <button class="emerald" onclick="stop()" >STOP &#8718;</button>
+                        <button class="emerald" onclick="resume()">RESUME &#8634;</button>
+                        <button class="emerald" onclick="reset()">RESET &#8635;</button>
+                    </div>
+                </div>
+                
+            </td>
+
+            <td>Tiempo:
+                <script src="mesa2.js"></script>
+                <div class="chronometer2">
+                    <div id="screen2">00 : 00 : 00 : 00</div>
+                    <div class="button">
+                        <button class="emerald" onclick="inicio()">START &#9658;</button>
+                        <button class="emerald" onclick="parar()">STOP &#8718;</button>
+                        <button class="emerald" onclick="resumen()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="restablecer()">RESET &#8635;</button>
+                    </div>
+                </div>
+            </td>
+            <td>Tiempo:
+                <script src="mesa3.js"></script>
+                <div class="chronometer3">
+                    <div id="screen3">00 : 00 : 00 : 00</div>
+                    <div class="butto">
+                        <button class="emerald" onclick="iniciar()">START &#9658;</button>
+                        <button class="emerald" onclick="para()">STOP &#8718;</button>
+                        <button class="emerald" onclick="resu()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="resta()">RESET &#8635;</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr> 
+            
+            <td>Total a pagar:<div id="screen11">$</div></td>
+            
+            <td>Total a pagar:<div id="screen12">$</div></td>
+            
+            <td>Total a pagar:<div id="screen12">$</div></td>
+        </tr>
+        </table>
+        <p></p>
+        <table>
+        <tr><td ><h2>Mesa 4: </h2></td><td><h2>Mesa 5: </h2></td><td><h2>Mesa 6: </h2></td></tr>
+        <tr>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen4" onclick="cambiar4();"></td>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen5" onclick="cambiar5();"></td>
+            <td> <img src="billar1.PNG" alt="billar" id="imagen6" onclick="cambiar6();"></td>
+        </tr>
+            <td>Tiempo:
+                <script src="mesa4.js"></script>
+                <div class="chronome4">
+                    <div id="screen4">00 : 00 : 00 : 00</div>
+                    <div class="buttons">
+                        <button class="emerald" onclick="iniciar4()">START &#9658;</button>
+                        <button class="emerald" onclick="para4()">STOP &#8718;</button>
+                        <button class="emerald" onclick="resu4()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="resta4()">RESET &#8635;</button>
+                    </div>
+                </div>
+            </td>
+            <td>Tiempo:
+                <script src="mesa5.js"></script>
+                <div class="chronometer5">
+                    <div id="screen5">00 : 00 : 00 : 00</div>
+                    <div class="buttons5">
+                        <button class="emerald" onclick="start5()">START &#9658;</button>
+                        <button class="emerald" onclick="stop5()">STOP &#8718;</button>
+                        <button class="emerald" onclick="resume5()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="reset5()">RESET &#8635;</button>
+                    </div>
+                </div>
+            </td>
+            <td>Tiempo:
+                <script src="mesa6.js"></script>
+                <div class="chronometer6">
+                    <div id="screen6">00 : 00 : 00 : 00</div>
+                    <div class="buttons">
+                        <button class="emerald" onclick="start6()">START &#9658;</button>
+                        <button class="emerald" onclick="stop6()">STOP &#8718;</button>
+                        <button class="emerald" onclick="resume6()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="reset6()">RESET &#8635;</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Total a pagar:<div id="screen14">$</div></td>
+            <td>Total a pagar:<div id="screen15">$</div></td>
+            <td>Total a pagar:<div id="screen16">$</div></td>
+        </tr>
+    </table>
+    <script>
+    </script>
+</body>
+</html>
